@@ -88,4 +88,11 @@
       'Flare' => 'Spatie\\LaravelIgnition\\Facades\\Flare',
     ),
   ),
+  'summerblue/generator' => 
+  array (
+    'providers' => 
+    array (
+      0 => 'Summerblue\\Generator\\GeneratorsServiceProvider',
+    ),
+  ),
 );
