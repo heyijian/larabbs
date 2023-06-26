@@ -17,23 +17,23 @@ class UsersController extends Controller
 
     public function edit(User $user)
     {
-        return view('users.edit',compact('user'));
+        return view('users.edit', compact('user'));
     }
 
-    public function update(UserRequest $request,ImageUploadHandler $uploader,User $user)
+    public function update(UserRequest $request, ImageUploadHandler $uploader, User $user)
     {
         $data = $request->all();
 
-        if($request->avatar) {
-            $result = $uploader->save($request->avatar,'avatars',$user->id);
-            if($result){
+        if ($request->avatar) {
+            $result = $uploader->save($request->avatar, 'avatars', $user->id, 416);
+            if ($result) {
                 $data['avatar'] = $result['path'];
             }
         }
 
         $user->update($data);
 
-        return redirect()->route('users.show',$user->id)->with('success','个人资料更新成功！');
+        return redirect()->route('users.show', $user->id)->with('success', '个人资料更新成功！');
     }
 
 }
