@@ -28,6 +28,7 @@ body {
     margin-bottom: 40px;
     margin-top: 0px;
 }
+
 /* Sticky footer styles */
 html {
     position: relative;
@@ -73,9 +74,10 @@ body {
 }
 
 /* Topic Index Page */
-.topics-index-page {
+.topics-index-page,
+.categories-show-page {
     .topic-list {
-        .nav>li>a {
+        .nav > li > a {
             position: relative;
             display: block;
             padding: 5px 14px;
@@ -97,7 +99,7 @@ body {
         }
 
         .badge {
-            background-color: #d8d8d8!important;
+            background-color: #d8d8d8 !important;
         }
 
         hr {

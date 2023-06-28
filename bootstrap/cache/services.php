@@ -36,10 +36,11 @@
     32 => 'Overtrue\\LaravelLang\\TranslationServiceProvider',
     33 => 'Spatie\\LaravelIgnition\\IgnitionServiceProvider',
     34 => 'Summerblue\\Generator\\GeneratorsServiceProvider',
-    35 => 'App\\Providers\\AppServiceProvider',
-    36 => 'App\\Providers\\AuthServiceProvider',
-    37 => 'App\\Providers\\EventServiceProvider',
-    38 => 'App\\Providers\\RouteServiceProvider',
+    35 => 'HieuLe\\Active\\ActiveServiceProvider',
+    36 => 'App\\Providers\\AppServiceProvider',
+    37 => 'App\\Providers\\AuthServiceProvider',
+    38 => 'App\\Providers\\EventServiceProvider',
+    39 => 'App\\Providers\\RouteServiceProvider',
   ),
   'eager' => 
   array (
@@ -63,10 +64,11 @@
     17 => 'Termwind\\Laravel\\TermwindServiceProvider',
     18 => 'Spatie\\LaravelIgnition\\IgnitionServiceProvider',
     19 => 'Summerblue\\Generator\\GeneratorsServiceProvider',
-    20 => 'App\\Providers\\AppServiceProvider',
-    21 => 'App\\Providers\\AuthServiceProvider',
-    22 => 'App\\Providers\\EventServiceProvider',
-    23 => 'App\\Providers\\RouteServiceProvider',
+    20 => 'HieuLe\\Active\\ActiveServiceProvider',
+    21 => 'App\\Providers\\AppServiceProvider',
+    22 => 'App\\Providers\\AuthServiceProvider',
+    23 => 'App\\Providers\\EventServiceProvider',
+    24 => 'App\\Providers\\RouteServiceProvider',
   ),
   'deferred' => 
   array (

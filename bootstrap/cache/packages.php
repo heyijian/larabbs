@@ -106,4 +106,15 @@
       0 => 'Summerblue\\Generator\\GeneratorsServiceProvider',
     ),
   ),
+  'summerblue/laravel-active' => 
+  array (
+    'providers' => 
+    array (
+      0 => 'HieuLe\\Active\\ActiveServiceProvider',
+    ),
+    'aliases' => 
+    array (
+      'Active' => 'HieuLe\\Active\\Facades\\Active',
+    ),
+  ),
 );
